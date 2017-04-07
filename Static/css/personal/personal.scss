@@ -1,0 +1,12 @@
+@import "../mixin";
+@import "../fonts";
+
+body{
+  background: #EAEAEA;
+}
+
+$img:'../../images/';
+.header{
+  @include cube(100%,4.96rem);
+  background: url($img + 'beijing.png') center/cover no-repeat;
+}
