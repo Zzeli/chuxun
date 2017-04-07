@@ -6,7 +6,7 @@ define('CSS_PATH', '/Static/css/');
 define('JS_PATH', '/Static/js/');
 define('FONT_PATH', '/Static/fonts/');
 define('MUSIC_PATH', '/Static/musics/');
-define('IMG_PATH', '/Static/imgs/');
+define('IMG_PATH', '/Static/images/');
 
 require 'Core/common.php';
 //require '/DBPdo.php';

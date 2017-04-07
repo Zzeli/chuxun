@@ -46,18 +46,17 @@ body {
 
 .parcel {
   width: 100%;
-  height: 1334px;
-  background: url("/Static/imgs/Appbackground.jpg");
-  padding-top: 14px;
+  height: 13.34rem;
+  background: url("../../../Static/images/Appbackground.jpg");
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
   .parcel [class~='parcel-tag'] {
-    padding: 0 0.24rem;
     width: 100%; }
     .parcel [class~='parcel-tag']:nth-child(1) {
-      height: 120px; }
+      padding-top: 14px;
+      background: rgba(2, 2, 2, 0.8); }
     .parcel [class~='parcel-tag']:nth-child(2) {
       flex: 1;
       display: flex;
@@ -65,13 +64,8 @@ body {
     .parcel [class~='parcel-tag']:nth-child(3) {
       background: #000000;
       padding: 0 -0.24rem;
-      height: 98px;
+      height: 0.98rem;
       align-self: center; }
-
-.parcel-header article {
-  width: 100%;
-  height: 100%;
-  background: rgba(140, 121, 20, 0.4); }
 
 .parcel-main article {
   width: 100%;
@@ -81,12 +75,28 @@ body {
 
 .parcel-main .parcel-main-map {
   width: 100%;
-  height: 304px;
-  background: rgba(72, 159, 85, 0.4); }
+  height: 3.04rem;
+  overflow: hidden; }
+  .parcel-main .parcel-main-map image {
+    width: 7.50rem; }
+
+.parcel-main .parcel-main-map-btn-parcel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2.53rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 0.24rem; }
+  .parcel-main .parcel-main-map-btn-parcel li {
+    width: 0.57rem;
+    height: 0.57rem;
+    border-radius: 50%;
+    background: #fff; }
 
 .parcel-main .parcel-main-scenic {
-  flex: 1;
-  background: rgba(25, 248, 122, 0.3); }
+  flex: 1; }
 
 .parcel-footer article {
   width: 100%;
@@ -105,11 +115,11 @@ body {
 
 .parcel-footer s {
   font-size: 0;
-  width: 5px;
-  height: 25px;
-  background: url("/Static/imgs/parcel-footer-bg.png");
+  width: 0.05rem;
+  height: 0.25rem;
+  background: url("../../../Static/images/yy-bannerbg_06.png");
   position: absolute;
   top: 0;
   bottom: 0;
   margin: auto;
-  right: 25%; }
+  right: 28%; }
