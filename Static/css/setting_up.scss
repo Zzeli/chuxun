@@ -1,0 +1,88 @@
+@import "base.css";
+@import "mixin";
+
+$Img: '/Static/imgs/';
+
+.parcel {
+  @include cube(100%, 1334px);
+  background: url($Img + "Appbackground.jpg");
+  padding-top: 14px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  [class~='parcel-tag'] {
+    padding: 0 0.24rem;
+    width: 100%;
+    &:nth-child(1) {
+      height: 120px;
+    }
+    &:nth-child(2) {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    &:nth-child(3) {
+      background: #000000;
+      padding: 0 -0.24rem;
+      height: 98px;
+      align-self: center;
+    }
+  }
+}
+
+.parcel-header {
+  article {
+    width: 100%;
+    height: 100%;
+    @include bg;
+  }
+}
+
+.parcel-main {
+  article {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.parcel-main .parcel-main-map {
+  width: 100%;
+  height: 304px;
+  @include bg;
+}
+
+.parcel-main .parcel-main-scenic {
+  flex: 1;
+  @include bg;
+}
+
+.parcel-footer {
+  article {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.2404rem;
+  }
+  span {
+    &:nth-child(1) {
+      color: #cebfa3;
+    }
+    &:nth-child(2) {
+      color: #ebebeb;
+    }
+  }
+  s {
+    font-size: 0;
+    width: 5px;
+    height: 25px;
+    background: url($Img + 'parcel-footer-bg.png');
+    @include tb;
+    right: 25%;
+  }
+}
