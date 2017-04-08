@@ -3,7 +3,7 @@
 @import "../wzj_personal_css/fonts";
 @import "../../fonts/font_pnt9i8feioyfogvi/iconfont.css";
 
-$Img: '/Static/img/';
+$Img: '../../../Static/images/';
 
 .inner {
   @include cube(100%, 100%);
@@ -11,9 +11,9 @@ $Img: '/Static/img/';
 }
 
 .table {
-  @include cube(100%, 1.2rem);
-  padding-top: 0.22rem;
-  background: #020202;
+  @include cube(100%, 1.42rem);
+  margin: 0;
+  padding: 0.22rem 0;
   .content {
     @include cube(100%, 100%);
 
