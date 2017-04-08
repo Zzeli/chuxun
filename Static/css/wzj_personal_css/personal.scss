@@ -5,7 +5,7 @@ body{
   background: #EAEAEA;
 }
 
-$img:'../../img/';
+$img:'../../images/';
 .header{
   @include cube(100%,4.96rem);
   background: url($img + 'wzj-beijing.png') center/cover no-repeat;

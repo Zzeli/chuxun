@@ -61,7 +61,7 @@ body {
 .header {
   width: 100%;
   height: 4.96rem;
-  background: url("../../img/wzj-beijing.png") center/cover no-repeat; }
+  background: url("../../images/wzj-beijing.png") center/cover no-repeat; }
   .header .content {
     padding-top: 1.73rem;
     display: flex;
@@ -81,7 +81,7 @@ body {
       height: 1.87rem;
       position: relative; }
       .header .content .headPortrait .info .left .edit {
-        background: url("../../img/wzj-edit_03.png") center/cover no-repeat;
+        background: url("../../images/wzj-edit_03.png") center/cover no-repeat;
         position: absolute;
         bottom: 0;
         right: 0.06rem;
@@ -105,7 +105,7 @@ body {
     .header .content .headPortrait .info .set {
       width: 1.92rem;
       height: 0.8rem;
-      background: url("../../img/wzj-button_03.png") center/cover no-repeat;
+      background: url("../../images/wzj-button_03.png") center/cover no-repeat;
       background-color: #EAEAEA;
       border-radius: 0.8rem;
       border: 0;
@@ -162,7 +162,7 @@ body {
       font-size: 0.48rem;
       color: #646262; }
     .header .content .userName .information .line {
-      background: url("../../img/wzj-line.png") center/cover no-repeat;
+      background: url("../../images/wzj-line.png") center/cover no-repeat;
       width: 0.36rem;
       height: 0.07rem;
       margin: 0 auto; }
@@ -171,7 +171,7 @@ body {
       justify-content: space-between;
       height: 0.24rem; }
       .header .content .userName .information .star span {
-        background: url("../../img/wzj-star.png") center/cover no-repeat;
+        background: url("../../images/wzj-star.png") center/cover no-repeat;
         width: 0.24rem; }
   .header .content .autograph {
     flex: 100%;
@@ -202,4 +202,4 @@ body {
     justify-content: space-between; }
   .my .mys .row .widths {
     width: 3.05rem;
-    background: url("../../img/wzj-my_03.png") center/cover no-repeat; }
+    background: url("../../images/wzj-my_03.png") center/cover no-repeat; }
