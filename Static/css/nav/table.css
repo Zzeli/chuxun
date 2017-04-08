@@ -46,12 +46,12 @@ body {
   font-size: 16px; }
 
 @font-face {
-  font-family: 'Wyue';
-  src: url("../fonts/文悦古体仿宋.otf"); }
+  font-family: Wyue;
+  src: url("../../fonts/文悦古体仿宋.otf"); }
 
 @font-face {
   font-family: leftp;
-  src: url(../fonts/font_pnt9i8feioyfogvi/iconfont.woff); }
+  src: url(../../fonts/font_pnt9i8feioyfogvi/iconfont.woff); }
 
 .inner {
   width: 100%;
@@ -104,12 +104,12 @@ body {
         font-size: 0.3rem;
         color: #fff;
         font-weight: 400;
-        font-family: guyue, sans-serif; }
+        font-family: Wyue,sans-serif; }
       .table .content .titleBox .title .english {
         margin-top: 2%;
         font-size: 0.18rem;
         color: #fff;
         font-weight: 400;
-        font-family: guyue, sans-serif; }
+        font-family: Wyue,sans-serif; }
     .table .content .titleBox .right-r {
       background: url("../../../Static/images/right.png") center/cover no-repeat; }

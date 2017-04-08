@@ -44,6 +44,14 @@
 body {
   font-size: 16px; }
 
+@font-face {
+  font-family: Wyue;
+  src: url("../../fonts/文悦古体仿宋.otf"); }
+
+@font-face {
+  font-family: leftp;
+  src: url(../../fonts/font_pnt9i8feioyfogvi/iconfont.woff); }
+
 .parcel {
   width: 100%;
   height: 13.34rem;
@@ -131,7 +139,8 @@ body {
     align-items: center; }
     .parcel-main .parcel-main-map-parcel .parcel-main-map .parcel-main-map-scale-parcel .parcel-main-map-prop {
       color: #c6b390;
-      font-size: 0.2385rem; }
+      font-size: 0.2385rem;
+      font-family: Wyue,sans-serif; }
     .parcel-main .parcel-main-map-parcel .parcel-main-map .parcel-main-map-scale-parcel .parcel-main-map-scale {
       width: 0.75rem;
       height: 0.16rem;
@@ -207,14 +216,34 @@ body {
       display: flex;
       justify-content: center;
       align-items: center; }
-      .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-parcel .parcel-main-scenic-logo img {
-        width: 100%; }
-      .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-parcel .parcel-main-scenic-logo span {
-        z-index: 222;
-        font-size: 0.3719rem;
-        color: #fcfcfb;
+      .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-parcel .parcel-main-scenic-logo .parcel-main-scenic-logo-img {
+        width: 0.93rem;
+        height: 0.93rem;
+        border-radius: 50%;
+        overflow: hidden; }
+        .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-parcel .parcel-main-scenic-logo .parcel-main-scenic-logo-img img {
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto; }
+      .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-parcel .parcel-main-scenic-logo .parcel-main-scenic-logo-top {
+        width: 0.93rem;
+        height: 0.93rem;
+        border-radius: 50%;
+        background: url("../../../Static/images/yy-header-por-top-bg.png");
         position: absolute;
-        transform: rotateZ(90deg); }
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-parcel .parcel-main-scenic-logo .parcel-main-scenic-logo-top span {
+          z-index: 222;
+          font-size: 0.3719rem;
+          color: #fcfcfb;
+          position: absolute;
+          transform: rotateZ(90deg); }
     .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-parcel .parcel-main-scenic-line {
       width: 4.09rem;
       height: 0.17rem;
@@ -224,7 +253,8 @@ body {
       height: 0.53rem;
       background: url("../../../Static/images/yy-trip-amend.png") #fff;
       font-size: 0.28rem;
-      color: #fbfbfb; }
+      color: #fbfbfb;
+      font-family: Wyue,sans-serif; }
   .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-list {
     flex: 1;
     margin: 0 0.04rem 0 0.11rem;
@@ -257,18 +287,23 @@ body {
         align-items: center; }
         .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-list .parcel-main-scenic-adjust-item .parcel-main-scenic-adjust-item-text .parcel-main-scenic-adjust-item-text-title {
           font-size: 0.3rem;
-          color: #fdfcfc; }
+          color: #fdfcfc;
+          font-family: Wyue,sans-serif; }
         .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-list .parcel-main-scenic-adjust-item .parcel-main-scenic-adjust-item-text .parcel-main-scenic-adjust-item-text-time {
           font-size: 0.18rem;
-          color: #999999; }
+          color: #999999;
+          font-family: Wyue,sans-serif; }
         .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-list .parcel-main-scenic-adjust-item .parcel-main-scenic-adjust-item-text .parcel-main-scenic-adjust-item-text-subtitle {
           font-size: 0.24rem;
-          color: #666666; }
+          color: #666666;
+          font-family: Wyue,sans-serif; }
           .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-list .parcel-main-scenic-adjust-item .parcel-main-scenic-adjust-item-text .parcel-main-scenic-adjust-item-text-subtitle span {
-            color: #ff0000; }
+            color: #ff0000;
+            font-family: Wyue,sans-serif; }
         .parcel-main .parcel-main-scenic-parcel .parcel-main-scenic .parcel-main-scenic-adjust-list .parcel-main-scenic-adjust-item .parcel-main-scenic-adjust-item-text p {
           font-size: 0.24rem;
-          color: #bcb9b9; }
+          color: #bcb9b9;
+          font-family: Wyue,sans-serif; }
 
 .parcel-footer article {
   width: 100%;
@@ -279,11 +314,12 @@ body {
   justify-content: center;
   font-size: 0.2404rem; }
 
-.parcel-footer span:nth-child(1) {
-  color: #cebfa3; }
-
-.parcel-footer span:nth-child(2) {
-  color: #ebebeb; }
+.parcel-footer span {
+  font-family: Wyue,sans-serif; }
+  .parcel-footer span:nth-child(1) {
+    color: #cebfa3; }
+  .parcel-footer span:nth-child(2) {
+    color: #ebebeb; }
 
 .parcel-footer s {
   font-size: 0;

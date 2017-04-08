@@ -1,8 +1,8 @@
 @import "../base.css";
 @import "../mixin";
+@import "fonts";
 
 $Img: '../../../Static/images/';
-
 .parcel {
   @include cube(100%, 13.34rem);
   background: url($Img + "Appbackground.jpg");
@@ -99,6 +99,7 @@ $Img: '../../../Static/images/';
     .parcel-main-map-prop {
       color: #c6b390;
       font-size: 0.2385rem;
+      font-family: Wyue,sans-serif;
     }
 
     .parcel-main-map-scale {
@@ -185,15 +186,28 @@ $Img: '../../../Static/images/';
       display: flex;
       justify-content: center;
       align-items: center;
-      img {
-        width: 100%;
+      .parcel-main-scenic-logo-img{
+        @include circle(0.93rem);
+        overflow: hidden;
+        img {
+          display: block;
+          @include center;
+        }
       }
-      span {
-        z-index: 222;
-        font-size: 0.3719rem;
-        color: #fcfcfb;
+      .parcel-main-scenic-logo-top{
+        @include circle(0.93rem);
+       background: url($Img + "yy-header-por-top-bg.png");
         position: absolute;
-        transform: rotateZ(90deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+          z-index: 222;
+          font-size: 0.3719rem;
+          color: #fcfcfb;
+          position: absolute;
+          transform: rotateZ(90deg);
+        }
       }
     }
 
@@ -207,9 +221,7 @@ $Img: '../../../Static/images/';
       background: url($Img + "yy-trip-amend.png") #fff;
       font-size: 0.28rem;
       color: #fbfbfb;
-      //position: absolute;
-      //right: 3%;
-      //bottom: 10%;
+      font-family: Wyue,sans-serif;
     }
   }
   .parcel-main-scenic .parcel-main-scenic-adjust-list {
@@ -244,22 +256,27 @@ $Img: '../../../Static/images/';
         .parcel-main-scenic-adjust-item-text-title {
           font-size: 0.3rem;
           color: #fdfcfc;
+          font-family: Wyue,sans-serif;
         }
         .parcel-main-scenic-adjust-item-text-time {
 
           font-size: 0.18rem;
           color: #999999;
+          font-family: Wyue,sans-serif;
         }
         .parcel-main-scenic-adjust-item-text-subtitle{
           font-size: 0.24rem;
           color: #666666;
+          font-family: Wyue,sans-serif;
           span{
             color: #ff0000;
+            font-family: Wyue,sans-serif;
           }
         }
         p {
           font-size: 0.24rem;
           color: #bcb9b9;
+          font-family: Wyue,sans-serif;
         }
       }
     }
@@ -277,6 +294,7 @@ $Img: '../../../Static/images/';
     font-size: 0.2404rem;
   }
   span {
+    font-family: Wyue,sans-serif;
     &:nth-child(1) {
       color: #cebfa3;
     }
