@@ -11,6 +11,5 @@ define('IMG_PATH', '/Static/images/');
 require 'Core/common.php';
 //require '/DBPdo.php';
 require 'Core/Framework.php';
-
 \Core\Framework::start();
 
